@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Box icons-->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <!--Scroll to Top-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+    </a>
+
+    <!--header-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Live webinar</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#Panelists" class="nav__link">Panelists</a></li>
+                    <li class="nav__item"><a href="#Registration" class="nav__link">Registration</a></li>
+                    <li class="nav__item"><a href="#form" class="nav__link">Form</a></li>
+
+                    <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                    <li><b>-->Theme</b></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--Home-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__img">
+                    <img src="assets/img/home_img.jpg" alt="remote_hiring">
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">The Future of Remote Hiring - Webinar</h1>
+                    <p class="home__description">2020 was an unprecedented year for us recruiters. It completely
+                        redefined how we operate.There’s so much the year has taught us that can help shape the Future
+                        of Remote Hiring.</p>
+                    <p id="description">In our latest webinar, our panellists - <b>Mayank Singh (HRBP,
+                            Amazon)</b>,<b>Ajit Singh (HR, Dell)</b> and <b>Niruudh Patel(Head, Target)</b> will discuss
+                        their learnings from the year gone by. The panellists will also respond to any queries you may
+                        have about learnings from the past year and how to use them now to help you grow.
+                    </p>
+                    <a href="#" class="button" id="live">Watch Live</a>
+                </div>
+        </section>
+
+        <!--Panelists section-->
+        <section class="decoration section bd-container" id="Panelists">
+            <h2 class="section-title">Our 3 Panelists <br> For The Webinar</h2>
+            <div class="decoration__container bd-grid">
+                <div class="decoration__data">
+                    <img src="assets/img/mayank_panelist.jpg" alt="Panelist1_image" class="decoration__img">
+                    <h3 class="decoration__title">Mayank Singh (HRBP, Amazon)</h3>
+                    <a href="#" class="button button-link" id="read">Click on Read More</a>
+                    <div id="author_bio_wrap" style="display: none;">
+                        <p>Mayank Singh is a very professional recruiter. He is very responsive and quick to resolve
+                            issues. He genuinely takes interest in his client's needs and is quick to respond to
+                            requests.</p>
+                    </div>
+                </div>
+
+
+                <div class="decoration__data">
+                    <img src="assets/img/ajit_singh_panelist.jpg" alt="Panelist2_image" class="decoration__img">
+                    <h3 class="decoration__title">Ajit Singh (HR, Dell)</h3>
+                    <a href="#" class="button button-link" id="read1">Click on Read More..</a>
+                    <div id="author_bio_wrap1" style="display: none;">
+                        <p>Ajit Singh is a very professional recruiter. He is very responsive and quick to resolve
+                            issues. He genuinely takes interest in his client's needs and is quick to respond to
+                            requests.</p>
+                    </div>
+                </div>
+
+                <div class="decoration__data">
+                    <img src="assets/img/aniruudh_panelist.webp" alt="Panelist3_image" class="decoration__img">
+                    <h3 class="decoration__title">Aniruudh Patel(Head, Target)</h3>
+                    <a href="#" class="button button-link" id="read2">Click on Read More.</a>
+                    <div id="author_bio_wrap2" style="display: none;">
+                        <p>Aniruudh Patel is a very professional recruiter. He is very responsive and quick to resolve
+                            issues. He genuinely takes interest in his client's needs and is quick to respond to
+                            requests.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Registration-->
+        <section class="share section bd-container" id="Registration">
+            <div class="share__container bd-grid">
+                <div class="share__data">
+                    <h2 class="section-title-center">Enter the <b>#futureofhr</b> Contest by clicking on the register
+                        now button.
+                    </h2>
+                    <p class="share__description">The most interesting questions stand a chance to win exciting prizes!
+                        🎁 Join them as they discuss ‘How to build a future-proof HR leadership’ in India and how you
+                        can strategize for growth and scalability..</p>
+                    <a href="#form" class="button" id="reg">Register Now</a>
+                </div>
+
+                <div class="share__img">
+                    <img src="assets/img/contest_reg.gif" alt="contest_reg">
+                </div>
+            </div>
+        </section>
+        <!-- form section-->
+        <section class="share section bd-container" id="form">
+            <h2>Kindly fill the below form to register for the Webinar
+                and ask interesting questions to get a chance to win exciting prizes</h2>
+            <div>
+                <form class="register" id="form1">
+                    <label for="fullname" id="details">Name</label>
+                    <input type="name" id="fullname" class="register-input" placeholder="Your Name">
+                    <label for="e-mail" id="details">Email</label>
+                    <input type="email" id="e-mail" class="register-input" placeholder="Email address">
+                    <label for="tel_no" id="details">Phone</label>
+                    <input type="tel" id="tel_no" class="register-input" placeholder="Mobile Number">
+                    <label for="questions" id="details">Question</label>
+                    <textarea class="register-input" id="questions" placeholder="Enter Your Question"></textarea>
+                    <input type="submit" id="submit" value="Submit" class="register-button">
+                </form>
+            </div>
+        </section>
+
+        <!--Subscription to get notified-->
+        <section class="send section">
+            <div class="send__container bd-container bd-grid">
+                <div class="send__content">
+                    <h2 class="section-title-center send__title">Subscribe to our newsletter</h2>
+                    <p class="send__description">By subscribing to our newsletter you will get notified abut similar
+                        events/topics. So,that you dont miss out on any opportunities to upskill yourself.</p>
+                    <form action="">
+                        <div class="send__direction">
+                            <input type="text" placeholder="Email address" id="sub1" class="send__input">
+                            <a href="#" class="button" id="sub">Subscribe</a>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="send__img">
+                    <img src="assets/img/notification.png" alt="newsletter_image">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--footer-->
+    <footer class="footer section">
+        <div class="footer__container bd-container bd-grid">
+
+            <div class="footer__content">
+                <h3 class="footer__title">Contact Information</h3>
+                <ul>
+                    <li>
+                        <b>Mobile Number:</b><br><a href="tel:+917395997315">7395877315</a>
+                    </li>
+                    <li>
+                        <b>Email-id:</b><br><a href="mailto: vgp1399@gmail.com">vgp1599@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Social</h3>
+                <a href="https://www.facebook.com/" class="footer__social"><i class='bx bxl-facebook-circle '></i></a>
+                <a href="https://twitter.com/" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Credits</h3>
+                <ul>
+                    <b>Guruprasad V</b>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!--Scrolling-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!--Main js-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
